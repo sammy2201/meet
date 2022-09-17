@@ -1,0 +1,82 @@
+<%- include("header") -%>
+<link rel="stylesheet" href="css/home.css">
+
+<div class="home flex-column">
+  <div class="g-top">
+    <div class="topRemoteVideo">
+      <div class="meetcontainer">
+        <div class="call-wrap">
+          <div class="video-wrap" id="Users">
+            <div class="userbox" id="me">
+              <h2 class="mename"></h2>
+              <div class="">
+                <video src="" autoplay muted id="localvideo"> </video>
+              </div>
+            </div>
+            <div class="userbox" style="display:none" id="other template">
+              <h2 class="mename"></h2>
+              <div class="">
+                <video src="" autoplay muted id=""> </video>
+                <audio src="" controls muted style="display:none"> </audio>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="g-top-left   justify-content-between">
+      <div class="participate-wrap">
+        <iconify-icon icon="bi:people-fill" width="20" height="20"></iconify-icon>
+        <div class="participatecount">90</div>
+      </div>
+      <div class="chat-box">
+        <iconify-icon icon="bx:message" width="20" height="20"></iconify-icon>
+      </div>
+      <div class="time"></div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="g-buttom">
+    <div class="row downbar">
+      <div class="buttomleft justify-content-start col">
+        <!-- <div class="meet-details">
+          <h6>Meet Details</h6>
+          <iconify-icon icon="bi:arrow-down-circle" width="20" height="20"></iconify-icon>
+        </div> -->
+      </div>
+      <div class="buttommid justify-content-center col ">
+        <div class="mic iconholder" id="muteorunmute">
+          <iconify-icon icon="eva:mic-off-fill" width="20" height="20"></iconify-icon>
+        </div>
+        <div class="endcall iconholder">
+          <iconify-icon icon="fluent:call-48-filled" style="color: red;" width="20" height="20"></iconify-icon>
+        </div>
+        <div class="videoicon iconholder">
+          <iconify-icon icon="bxs:video-off" width="20" height="20"></iconify-icon>
+        </div>
+      </div>
+      <div class="buttomright justify-content-end col">
+        <div class="screenshare">
+          <iconify-icon icon="ic:baseline-present-to-all" width="30" height="30"></iconify-icon>
+          <h6 class="h6-present"> Present to all</h6>
+          <iconify-icon icon="bi:three-dots-vertical" width="20" height="20"></iconify-icon>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<%- include("footer") -%>

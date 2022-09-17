@@ -1,0 +1,30 @@
+/* body{
+  background: #EEEEEE
+} */
+.navbar{
+  background-color: #EEEEEE
+}
+.navbar-brand{
+  color: #CC3636;
+  font-size: 40px
+}
+
+.nav-link{
+  font-size: 20px
+}
+
+.newmeeting{
+margin-top: 30%;
+font-size: 25px
+}
+
+.inputid{
+  margin-top: 10%
+}
+
+.meetimage{
+  width: 100%;
+  height: 90%;
+  margin-top: 10%;
+  border: 20px solid white
+}

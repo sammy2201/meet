@@ -1,0 +1,35 @@
+<%- include("header") -%>
+<link rel="stylesheet" href="css/index.css">
+
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand"><i class="fa-solid fa-video"></i> Meet</a>
+    <a class="nav-link active" href="/login"><button type="button" name="button" class="btn btn-primary">Sign in</button></a>
+  </div>
+</nav>
+
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <button type="button" name="button" class="btn btn-primary newmeeting" onclick="newmeet()"> <iconify-icon icon="bx:video-plus" width="30" height="30"></iconify-icon> New Meeting</button>
+      <div class="input-group mb-3 inputid">
+        <input type="text" class="form-control" id="code-value" placeholder="Meeting ID" >
+        <button class="btn btn-outline-secondary joinmeet" type="button" onclick="joinmeet()">Join Meet</button>
+      </div>
+    </div>
+    <div class="col">
+      <img class="meetimage" src="images/meet.png" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<script src="js/index.js"></script>
+<%- include("footer") -%>

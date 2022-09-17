@@ -1,0 +1,140 @@
+.home {
+  background-color: black;
+  display: flex;
+}
+
+.g-top {
+  height: 600px;
+  position: relative;
+}
+
+.topRemoteVideo {
+  display: flex;
+}
+
+.g-top-left {
+  position: absolute;
+  height: 60px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 25%;
+  background-color: #F2F2F2
+}
+
+.call-wrap {
+  background-color: black
+}
+
+.video-wrap {
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-wrap>* {
+  /*         // all child of this class */
+  flex: 1 1 250px;
+  border: 1px solid white;
+}
+
+.mename {
+  font-size: 15px
+}
+
+.meetcontainer {
+  width: 75%;
+  display: none;
+}
+
+.participate-wrap {
+  position: relative;
+  padding-top: 2%;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.participatecount {
+  position: absolute;
+  top: -2px;
+  right: -10px;
+  font-size: 14px
+}
+
+.chat-box {
+  padding-top: 2%;
+  cursor: pointer;
+}
+
+.g-buttom {
+  background-color: #F2F2F2;
+  padding: 0 20px;
+  box-shadow: 0 0 5px black;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%
+}
+
+.downbar {
+  width: 100%
+}
+
+.buttomleft {
+  position: relative;
+  padding: 5px;
+  display: flex;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.meet-details {
+  cursor: pointer
+}
+
+.buttommid {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  height: 100px
+}
+
+.iconholder {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #CFD2CF;
+  border-radius: 50%;
+  font-size: 8px !important;
+  padding: 2.2%;
+  margin-right: 10px
+}
+
+.buttomright {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.screenshare {
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+  cursor: pointer;
+}
+.h6-present{
+  margin-left: 5px;
+  margin-right: 40px
+}
+.options {
+  cursor: pointer;
+  align-items: center;
+  height: 100px;
+  position: relative;
+  top: 50%;
+  right: 0
+}
